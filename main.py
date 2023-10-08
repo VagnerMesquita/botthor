@@ -9,7 +9,7 @@ def retornar_historico():
 
 def enviar_mensagem(mensagem):
     bot_token = '6519773070:AAGxFFV-0bPDWUx6snXUUoPsc_ESHmo6Zgw' #6492851585:AAEPJdOlP07oreESve-gOeA6cDFkw9nwNVM
-    chat_id = '-4097953113' #-1001842803450
+    chat_id = '-1001882309167' #-4097953113 grupo
     url = f'https://api.telegram.org/bot{bot_token}/sendMessage?chat_id={chat_id}&text={mensagem}&parse_mode=Markdown'
     requests.get(url)
 
