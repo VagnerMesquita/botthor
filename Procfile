@@ -1,1 +1,1 @@
-worker: python main.py
+export PATH=$PATH:/usr/local/python3/bin && pip install gunicorn && gunicorn main.py
