@@ -87,7 +87,7 @@ while True:
 
     except Exception as e:
         print(e)
-        enviar_mensagem('🟥🟥🟥\n\nErro...')
+        
 
         sleep(5)
         pass
